@@ -11,4 +11,22 @@ function addBorder(picture: string[]): any {
     return wall;
 }
 
+function addBorder2(a: string[]): string[]{
+    let wall: string = '';
+    let arrayWithBorder: string[] = [];
+
+    for (let char of a[0]){
+        wall += '*';
+    }
+    a.forEach((element) => {
+        arrayWithBorder.push('*' + element)
+    });
+
+    arrayWithBorder.unshift(wall);
+    arrayWithBorder.push(wall);
+    return arrayWithBorder;
+}
+
+
 console.log(addBorder(["abc", "ded"]));
+console.log(addBorder2(["abc", "ded"]));
