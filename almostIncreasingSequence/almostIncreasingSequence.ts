@@ -50,3 +50,15 @@ console.log(almostIncreasingSequence2([1, 3, 2]));
 console.log(almostIncreasingSequence2([1, 3, 2, 4, 5, 7]));
 console.log(almostIncreasingSequence2([40, 50, 60, 10, 20, 30]));
 
+function compareTriplets(a, b) {
+    let alice = 0, bob = 0;
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] > b[i]) alice += 1;
+        if (a[i] < b[i]) bob += 1
+    }
+    return [alice, bob]
+
+}
+
+console.log(compareTriplets([17, 28, 39], [99, 16, 8]));
+console.log(compareTriplets([5, 6, 7], [3, 6, 10]));
