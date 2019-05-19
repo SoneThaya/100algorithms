@@ -18,3 +18,4 @@ function caseInsensitivePalindrome(word: string): boolean {
 console.log(caseInsensitivePalindrome('AaBaa'));
 console.log(caseInsensitivePalindrome('aabaa'));
 console.log(caseInsensitivePalindrome('abaac'));
+
