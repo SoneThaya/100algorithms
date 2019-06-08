@@ -1,5 +1,5 @@
 function mostFrequentDigitSum(n: number): number {
-
+    
 }
 
 console.log(mostFrequentDigitSum(88));
