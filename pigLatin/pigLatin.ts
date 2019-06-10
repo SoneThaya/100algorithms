@@ -8,7 +8,7 @@ function pigLatin(str: string): string {
 
   while (true) {
     if (!vowelRegex.test(letters[0])) {
-      const firstConstanent = letters.splice(0, 1);
+      const firstConstanent = letters.splice(0, 1)[0];
       letters.push(firstConstanent);
     } else {
       break;
