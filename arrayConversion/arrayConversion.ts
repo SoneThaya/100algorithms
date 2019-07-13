@@ -51,6 +51,8 @@ function arrayConversion2(arr: number[]): number {
 
 console.log(arrayConversion2([1, 2, 3, 4, 5, 6, 7, 8]));
 
+// solution 3
+
 function arrayConversion3(inputArray: number[]): number {
   let result: number = 0,
     iterration: number = 0,
