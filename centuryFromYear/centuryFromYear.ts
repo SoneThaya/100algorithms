@@ -1,20 +1,20 @@
 function centuryFromYear(year: number): number {
-    const century = year / 100;
+  const century = year / 100;
 
-    if (year % 100 === 0){
-        return century;
-    }
+  if (year % 100 === 0) {
+    return century;
+  }
 
-    return Math.floor(century) + 1;
+  return Math.floor(century) + 1;
 }
 
 console.log(centuryFromYear(1905));
 console.log(centuryFromYear(1700));
 
-// solution 2
+// solution 22
 
 function centuryFromYear2(year: number): number {
-    return Math.ceil(year / 100);
+  return Math.ceil(year / 100);
 }
 
 console.log(centuryFromYear2(1905));
